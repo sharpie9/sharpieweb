@@ -5025,3 +5025,11 @@ tr.odd.gradeX td.sorting_1, tr.even.gradeX td.sorting_1, table.display tr.even.g
 .recent-highlight {
     background: #FF6C60 !important;
 }
+/** Semantikx added */
+
+.table-striped thead th{
+    color:#cecece;
+}
+.table-striped tbody tr td:first-child{
+    font-weight: bolder;
+}
